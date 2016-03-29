@@ -1,0 +1,37 @@
+{
+  "name": "slug-command",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/slug-command.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/slug-command",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "bugs": {
+    "url": "https://github.com/azu/slug-command/issues"
+  },
+  "version": "1.0.0",
+  "description": "A command line tool for slug",
+  "main": "bin/cmd.js",
+  "bin": {
+    "slug-command": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "slug",
+    "cli"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "slug": "^0.9.1"
+  }
+}
