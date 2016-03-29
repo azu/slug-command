@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/azu/slug-command/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool for slug",
   "main": "bin/cmd.js",
   "bin": {
@@ -24,8 +24,7 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "slug",
     "cli"
