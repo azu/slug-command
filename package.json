@@ -24,7 +24,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node test/slug-test.js"
+  },
   "keywords": [
     "slug",
     "cli"
